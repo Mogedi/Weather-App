@@ -1,0 +1,61 @@
+html body {
+    border: dashed red 0px;
+    margin: 0;
+    height: 100vh;
+}
+
+#container-fluid1 {
+    background-image: url("https://images.unsplash.com/photo-1448814100339-234df1d4005d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=e6ccb188b094cba9b093db5efc91978e");
+    background-size: cover;
+    background-position: bottom;
+    height: 100%;
+    border: dashed green 0px;
+    position: relative;
+}
+
+#container-fluid1 #title {
+    border: dashed green 0px;
+    font-family: monospace sans-serif;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+#container-fluid1 #data {
+    border: dashed blue 0px;
+    font-family: monospace;
+    height: 25%;
+    font-size: 24px;
+    text-align: center;
+}
+
+#location {
+    border: dashed red 0px;
+    background-color: #161616;
+    width: 45%;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    
+}
+
+
+#container-fluid1 #data ul{
+    text-align: center;
+    text-indent: -50px;
+    border: dashed red 0px;
+    display: inline-block;
+    margin-left: 0;
+    width: 100%;
+    
+}
+#container-fluid1 #data #icon{
+    text-align: center;
+    text-indent: -20px;
+    border: dashed red 0px;
+    display: inline-block;
+    margin-left: 0;
+    width: 100%;
+    
+}
+
